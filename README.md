@@ -5,21 +5,15 @@ The **Eight Surface** is a type of mathematical surface that resembles the shape
 ### Equation Explanation
 The parametric equations for the Eight Surface are:
 
-\[
-\begin{cases}
-x = \cos(u) \cdot \sin(a \cdot v) \\
-y = \sin(u) \cdot \sin(a \cdot v) \\
-z = 1.25 \cdot \sin(v)
-\end{cases}
-\]
+![Image](https://github.com/user-attachments/assets/e279c5aa-5e03-43e3-8924-97f4643a152b)
 
 Where:
 - \( u \) and \( v \) are parameters that vary over specific ranges.
 - \( a \) is a constant that controls the shape of the surface.
 
 #### Parameters:
-1. **\( u \)**: This parameter typically ranges from \( 0 \) to \( 2\pi \). It controls the rotation around the \( z \)-axis, creating the "twist" in the surface.
-2. **\( v \)**: This parameter typically ranges from \( -\pi \) to \( \pi \). It controls the vertical "stretching" of the surface, giving it the "8" shape.
+1. **\( u \)**: This parameter typically ranges from \( 0 \) to 2π. It controls the rotation around the \( z \)-axis, creating the "twist" in the surface.
+2. **\( v \)**: This parameter typically ranges from -π to π. It controls the vertical "stretching" of the surface, giving it the "8" shape.
 3. **\( a \)**: This is a constant (in your case, \( a = 2 \)). It affects the number of twists or loops in the surface. A higher value of \( a \) would create more loops.
 
 #### Components of the Equation:
