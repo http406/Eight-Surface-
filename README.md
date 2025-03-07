@@ -23,15 +23,15 @@ Where:
 3. **\( a \)**: This is a constant (in your case, \( a = 2 \)). It affects the number of twists or loops in the surface. A higher value of \( a \) would create more loops.
 
 #### Components of the Equation:
-1. **\( x = \cos(u) \cdot \sin(a \cdot v) \)**:
-   - \( \cos(u) \) generates a circular motion in the \( x \)-direction as \( u \) varies.
-   - \( \sin(a \cdot v) \) modulates this motion based on \( v \), creating the "8" shape.
+1. **( x = cos(u) • sin(a • v) )**:
+   - cos(u) generates a circular motion in the \( x \)-direction as \( u \) varies.
+   - sin(a • v) modulates this motion based on \( v \), creating the "8" shape.
 
-2. **\( y = \sin(u) \cdot \sin(a \cdot v) \)**:
-   - \( \sin(u) \) generates a circular motion in the \( y \)-direction as \( u \) varies.
-   - \( \sin(a \cdot v) \) modulates this motion based on \( v \), similar to the \( x \)-component.
+2. **( y = sin(u) • sin(a • v) )**:
+   - sin(u) generates a circular motion in the \( y \)-direction as \( u \) varies.
+   - sin(a • v) modulates this motion based on \( v \), similar to the \( x \)-component.
 
-3. **\( z = 1.25 \cdot \sin(v) \)**:
+3. **( z = 1.25 • sin(v) )**:
    - This component controls the vertical (\( z \)-axis) position of the surface.
    - The factor \( 1.25 \) scales the height of the surface, making it more pronounced.
 
