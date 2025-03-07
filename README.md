@@ -30,8 +30,8 @@ Where:
    - The factor \( 1.25 \) scales the height of the surface, making it more pronounced.
 
 ### Visual Interpretation
-- The combination of \( \cos(u) \) and \( \sin(u) \) creates a circular or toroidal shape.
-- The \( \sin(a \cdot v) \) term introduces the "8" or infinity-like loops by modulating the circular motion.
+- The combination of cos(u) and sin(u) creates a circular or toroidal shape.
+- The sin(a • v) term introduces the "8" or infinity-like loops by modulating the circular motion.
 - The \( z \)-component adds depth, making the surface three-dimensional.
 
 ### Application in Code
